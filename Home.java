@@ -36,18 +36,18 @@ public class Home extends JFrame{
         textPanel.setOpaque(false); // Make the panel transparent
 
         JLabel l1 = new JLabel("Welcome to our Travel Agency");
-        l1.setForeground(Color.WHITE);
-        l1.setFont(new Font("Times New Roman", Font.PLAIN, 38));
-        l1.setBounds(140, 180, 500, 100);
+        l1.setForeground(Color.BLACK);
+        l1.setFont(new Font("Tahoma", Font.BOLD, 35));
+        l1.setBounds(130, 180, 600, 100);
         NewLabel.add(l1);
         JLabel l2 = new JLabel("We offer personalized travel experiences tailored to your needs.");
-        l2.setForeground(Color.WHITE);
-        l2.setFont(new Font("Times New Roman", Font.PLAIN, 18));
+        l2.setForeground(Color.black);
+        l2.setFont(new Font("Tahoma", Font.PLAIN ,20));
         l2.setBounds(120, 240, 600, 100);
         NewLabel.add(l2);
         JLabel additionalTextLabel = new JLabel("Explore our exciting destinations and book your dream vacation today!");
-        additionalTextLabel.setForeground(Color.WHITE);
-        additionalTextLabel.setFont(new Font("Times New Roman", Font.PLAIN, 18));
+        additionalTextLabel.setForeground(Color.black);
+        additionalTextLabel.setFont(new Font("Tahoma", Font.PLAIN, 20));
         additionalTextLabel.setBounds(108, 290, 600, 50); // Position it below the first label
         NewLabel.add(additionalTextLabel);
 
